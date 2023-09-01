@@ -1,5 +1,5 @@
 # CoG
-#Center of Gravity optimization method
+Center of Gravity optimization method:
 The main idea of CoG is attributing the potential function to a set of particles in problem space and finding the contour lines. With each particle moving with a predefined location in search space, the potential function is defined based on particle’s fitness values. The particles are then ranked according to their finesses. Through clustering of particles, the contour line will be constructed which then leads to determining their center of gravity. This process will iteratively continue by updating the particles in each iteration and ultimately achieving the global CoG. The proposed CoG algorithm is shown to be useful for different types of uni-modal to multi-modal benchmark functions. Also, optimizing some important engineering problems has been considered. The performance of this new optimization algorithm has been compared with some of the optimization algorithms. Simulation results confirm that the CoG algorithm provides performance improvement compared to other existing methods in various scenarios. 
 ![image](https://github.com/kazemita/CoG/assets/4712500/3f312b5a-4320-4e6c-8e9d-50511042da46)
 
